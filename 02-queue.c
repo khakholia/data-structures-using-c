@@ -20,7 +20,7 @@ void enqueue(int data){
     printf("Pushed!!\n");
 }
 int dequeue(){
-    if(front==NULL && rear==NULL){
+    if(front==NULL){
         printf("Empty!!\n");
     }else{
         int val = front->data;
