@@ -130,7 +130,7 @@ void sortBrand()
         while (x != NULL)
         {
             // printf("%s---%s\n",cpy->name,x->name);
-            if (strcmp(cpy->name, x->name))
+            if (strcmp(cpy->name, x->name)>1)
             {
                 char model[100];
                 char name[30];
