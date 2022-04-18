@@ -127,21 +127,21 @@ void main()
     time_t t;  
     time(&t);
 
-    int array[10] = {2, 5, 6, 3, 9, 2, 7, 5, 9};
+    int array[10] = {1,2,3,4,5,7,6,8,9,0};
     display(array, 10);
     // printf("\n\n\n\n\nTime Before: %s",ctime(&t));
     int count2 = selectionSort(array, 10);
     printf("\nCount: %d\n", count2);
     // printf("\nTime After: %s",ctime(&t));
 
-    int array1[10] = {2, 5, 6, 3, 9, 2, 7, 5, 9};
+    int array1[10] = {1,2,3,4,5,7,6,8,9,0};
     printf("\n\n\n\n\nQuick Sort\n");
     // printf("Time Before: %s",ctime(&t));
     int count1 = quickSort(array1, 0, 9);
     // printf("\nTime After: %s",ctime(&t));
     printf("\nCount: %d\n", count1);
 
-    int array2[10] = {2, 5, 6, 3, 9, 2, 7, 5, 9};
+    int array2[10] = {1,2,3,4,5,7,6,8,9,0};
     printf("\n\n\n\n\n\n");
     // printf("\n\n\n\n\n\n\n\nTime Before: %s",ctime(&t));
     int count = insertionSort(array2, 10);
@@ -149,7 +149,7 @@ void main()
     printf("\nCount: %d\n", count);
     // display(array2, 10);
 
-    int array3[10] = {2, 5, 6, 3, 9, 2, 7, 5, 9};
+    int array3[10] = {1,2,3,4,5,7,6,8,9,0};
     printf("\n\n\n\n\n\n\nBubble Sort:\n");
     // printf("Time Before: %s",ctime(&t));
     int count3 = bubbleSort(array3, 10);
